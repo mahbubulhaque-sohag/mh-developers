@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/687b212bcd.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="body-background">
     <header>
         <section>
           <nav class="navbar navbar-expand-lg">
@@ -24,19 +24,19 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="">Courses</a>
+                    <a class="nav-link" href="#courses">Courses</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Deals</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Success</a>
+                    <a class="nav-link" href="#success">Success</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" href="#register">Register</a>
                   </li>
                 </ul>
                   <!-- Button trigger modal -->
@@ -128,9 +128,9 @@
       <!-- course header end -->
 
       <!-- course detail -->
-      <section class="container pt-5">
+      <section class="container pt-5" id="courses">
         <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 ">
-         <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded g-2">
+         <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded gx-2">
            <div>
               <img class="h-100" src="images/course/course-1.png" alt="">
             </div>
@@ -140,7 +140,7 @@
               <footer class="text-info">price:20$</footer>
             </div>
            </div>
-          <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded g-2">
+          <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded gx-2">
             <div>
               <img class="h-100" src="images/course/course-2.png" alt="">
             </div>
@@ -196,25 +196,23 @@
       </section>
       <!-- course detail end-->
       <!-- join form -->
-      <section  class="container bg h-100 p-5">
-            <div class="d-flex justify-content-beetween">
-              <div>
+      <section  class="container bg h-100 p-5" id="register">
+            <div class="d-flex justify-content-beetween align-items-center ">
+              <div class="w-75">
                 <h4>Ready to join?</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
               </div>
-              <div class="">
+              <div class="w25 ">
                 <button class="bg-white text-primary p-1 rounded" type="button" class="btn btn-outline-primary border-0">Register Now</button>
               </div>
             </div>
-          
-        </div>
       </section>
       <!-- frequently questions part -->
       <section class="container pt-5 text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
           <div>
             <h1>Frequently Asked Questions</h1>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p>Here we share something basic knoledge realated our course.</p>
           </div>
       <div>
         <div class="accordion" id="accordionExample">
@@ -271,7 +269,7 @@
         </div>
       </section>
       <!-- icon part -->
-      <section class="p-5">
+      <section class="p-5" id="success">
         
         <div class=" d-none d-lg-block ">
           <h1 class="text-center p-5">Trusted by over 800+ companies</h1>
@@ -303,11 +301,11 @@
           <h2 class="text-white pt-4">mh-developers</h2>
         <p class="text-white">Office 41, satmatha, Bogura, 
           Bangladesh</p>
-          <div class="">
+          <div>
             <a class="text-white" href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-            <a class="text-white" href="https://www.google.com/search?gs_ssp=eJzj4tLP1TfIyDMsS05XYDRgdGDwYi8pzywpSS0CAFnOB00&q=twitter&rlz=1C1CHBF_enBD1012BD1012&oq=twi&aqs=chrome.2.69i57j0i67j46i67i131i199i433i465j0i67j0i67i131i433j69i60l3.7981j0j7&sourceid=chrome&ie=UTF-8"><i class="fa-brands fa-twitter"></i></a>
-            <a class="text-white" href="https://www.google.com/search?q=instagram+login&rlz=1C1CHBF_enBD1012BD1012&oq=ins&aqs=chrome.2.69i57j0i131i433i512l2j0i20i131i263i433i512j46i131i175i199i433i512j69i60l3.6253j0j9&sourceid=chrome&ie=UTF-8"><i class="fa-brands fa-instagram"></i></a>
-            <a class="text-white" href="https://www.google.com/search?q=whatsapp&rlz=1C1CHBF_enBD1012BD1012&oq=whatsapp&aqs=chrome.0.69i59j0i20i131i263i433i512l2j0i131i433i512l2j0i512j69i60l2.12967j0j9&sourceid=chrome&ie=UTF-8"><i class="fa-brands fa-whatsapp"></i></a>
+            <a class="text-white" href="https://www.google.com/search?gs_ssp=eJzj4tLP1TfIyDMsS05XYDRgdGDwYi8pzywpSS0CAFnOB00&q=twitter&rlz=1C1CHBF_enBD1012BD1012&oq=t&aqs=chrome.1.69i57j46i39i199i465j69i59j69i60l5.10371j0j7&sourceid=chrome&ie=UTF-8"><i class="fa-brands fa-twitter"></i></a>
+            <a class="text-white" href="https://www.google.com/search?q=instagram+login&rlz=1C1CHBF_enBD1012BD1012&oq=ins&aqs=chrome.0.69i59j69i57j0i131i433i512j46i131i175i199i433i512j0i131i433i512j69i60l3.4694j0j9&sourceid=chrome&ie=UTF-8"><i class="fa-brands fa-instagram"></i></a>
+            <a class="text-white" href="https://www.google.com/search?q=whatsapp&rlz=1C1CHBF_enBD1012BD1012&oq=wha&aqs=chrome.0.69i59l3j69i57j0i20i131i263i433i512j69i60l3.2158j0j9&sourceid=chrome&ie=UTF-8"><i class="fa-brands fa-whatsapp"></i></a>
           </div>
         </section>
        </footer>
