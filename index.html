@@ -39,29 +39,10 @@
                     <a class="nav-link" href="#register">Register</a>
                   </li>
                 </ul>
-                  <!-- Button trigger modal -->
-<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Register
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        You have to submit join form
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+                  
+                <button type="button" class="btn btn-outline-primary">
+                  Register
+                </button>
               </div>
             </div>
           </nav>
@@ -69,7 +50,7 @@
           <!-- navigation bar end -->
 
           <!-- carousel start -->
-          <section class="mt-5">
+          <section class="mt-5 row-cols-lg-1 row-cols-sm-1 row-cols-1">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -129,8 +110,8 @@
 
       <!-- course detail -->
       <section class="container pt-5" id="courses">
-        <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 ">
-         <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded gx-2">
+        <div class="row row-cols-lg-2 row-cols-sm-1 row-cols-1 ">
+         <div class="row row-cols-lg-2 row-cols-1 border border-rounded gx-2">
            <div>
               <img class="h-100" src="images/course/course-1.png" alt="">
             </div>
@@ -140,7 +121,7 @@
               <footer class="text-info">price:20$</footer>
             </div>
            </div>
-          <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded gx-2">
+          <div class="row row-cols-lg-2 row-cols-1 border border-rounded gx-2">
             <div>
               <img class="h-100" src="images/course/course-2.png" alt="">
             </div>
@@ -150,7 +131,7 @@
               <footer class="text-info">price:20$</footer>
             </div>
           </div>
-          <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded g-2">
+          <div class="row row-cols-lg-2 row-cols-1 border border-rounded g-2">
             <div>
               <img class="h-100" src="images/course/course-3.png" alt="">
             </div>
@@ -160,7 +141,7 @@
               <footer class="text-info">price:20$</footer>
             </div>
           </div>
-          <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded g-2">
+          <div class="row row-cols-lg-2 row-cols-1 border border-rounded g-2">
             <div>
               <img class="h-100" src="images/course/course-4.png" alt="">
             </div>
@@ -170,7 +151,7 @@
               <footer class="text-info">price:20$</footer>
             </div>
           </div>
-          <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded g-2">
+          <div class="row row-cols-lg-2 row-cols-1 border border-rounded g-2">
             <div>
               <img class="h-100" src="images/course/course-5.png" alt="">
             </div>
@@ -180,7 +161,7 @@
               <footer class="text-info">price:20$</footer>
             </div>
           </div>
-          <div class="row row-cols-lg-2 row-cols-sm-1 border border-rounded g-2">
+          <div class="row row-cols-lg-2 row-cols-1 border border-rounded g-2">
             <div>
               <img class="h-100" src="images/course/course-6.png" alt="">
             </div>
@@ -196,14 +177,35 @@
       </section>
       <!-- course detail end-->
       <!-- join form -->
-      <section  class="container bg h-100 p-5" id="register">
-            <div class="d-flex justify-content-beetween align-items-center ">
-              <div class="w-75">
+      <section  class="container bg  p-5" id="register ">
+            <div class="row row-cols-1 row-cols-sm-1  row-cols-lg-2 justify-content-center align-items-center">
+              <div class="pe-5 ">
                 <h4>Ready to join?</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
               </div>
-              <div class="w25 ">
-                <button class="bg-white text-primary p-1 rounded" type="button" class="btn btn-outline-primary border-0">Register Now</button>
+              <div class="pe-5 text-end ">
+                <button class="bg-white border border-0" type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Register
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        You have to submit join form
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
       </section>
